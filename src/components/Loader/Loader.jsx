@@ -7,8 +7,8 @@ class Loader extends Component {
       <div className={css.Loader}>
         <ColorRing
           visible={true}
-          height="80"
-          width="80"
+          height="90"
+          width="90"
           ariaLabel="blocks-loading"
           wrapperStyle={{}}
           wrapperClass="blocks-wrapper"
