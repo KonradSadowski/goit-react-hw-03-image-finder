@@ -61,7 +61,7 @@ class App extends Component {
   }
 
   render() {
-    const { searchQuery, images, isLoading, selectedImage, error } = this.state;
+    const { images, isLoading, selectedImage, error } = this.state;
     if (error) {
       return <div>Oops, something went wrong</div>;
     }
